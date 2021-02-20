@@ -1,0 +1,22 @@
+composer
+composer.phar
+node_modules/
+vendor/
+package-lock.json
+npm-debug.log
+yarn-error.log
+public/storage/*
+public/.DS_Store
+php_logs.log
+.docker/atlanta/.data
+.docker-sync/
+
+# Editor directories and files
+.DS_Store
+.idea
+.idea/
+.vscode
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
