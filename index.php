@@ -19,8 +19,9 @@ function simple() {
 /****/
 
 function simplecall() {
-    for ($i = 0; $i < 1000000; $i++)
+    for ($i = 0; $i < 1000000; $i++) {
         strlen("hallo");
+    }
 }
 
 /****/
@@ -29,8 +30,9 @@ function hallo($a) {
 }
 
 function simpleucall() {
-    for ($i = 0; $i < 1000000; $i++)
+    for ($i = 0; $i < 1000000; $i++) {
         hallo("hallo");
+    }
 }
 
 /****/
@@ -99,7 +101,7 @@ function mandel2() {
 
 /****/
 
-function Ack($m, $n){
+function Ack($m, $n) {
     if($m == 0) return $n+1;
     if($n == 0) return Ack($m-1, 1);
     return Ack($m - 1, Ack($m, ($n - 1)));
